@@ -13,6 +13,7 @@
 * Every component of the project will work on open standards
 * Every component of the project will work with Automation as much as possible
 * Every component of the project will have AI integration as much as possible
+* Plugin based system
 
 # Next Steps 
 
@@ -35,3 +36,22 @@ What we have?
 * Tutorials
 * Project Technical designs
 * API specifications
+
+## Plugin based system
+
+We need plugins to extend core system.
+
+What is core system?
+Core system will be responsible for
+
+* Collecting credentials
+* Providing basic features
+  * Authentication
+  * Listing templates, and other things
+
+What will be plugins?
+Plugins will be peace of code on top of core features in current context
+
+* Template deployment steps will be a driven by plugins
+
+## Web Browser extension to add deployment button on the fly
